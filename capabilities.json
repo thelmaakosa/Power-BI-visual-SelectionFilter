@@ -1,0 +1,53 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Category Data",
+            "name": "category",
+            "kind": "Grouping"
+        }
+    ],
+    "privileges":[],
+    "objects": {
+        "general": {
+            "displayName": "General",
+            "displayNameKey": "formattingGeneral",
+            "properties": {
+              "filter": {
+                "type": {
+                  "filter": true
+                }
+              }
+            }
+          },
+          "dropdown":{"properties":{"onOff":{"type": {"bool": true}},"fillColor":{"type": {"fill": {"solid": {"color": true}}}},"outlineColor":{"type": {"fill": {"solid": {"color": true}}}},"outlineThickness":{"type": {"numeric": true}},"outlineLeft":{"type": {"bool": true}},"outlineRight":{"type": {"bool": true}},"outlineTop":{"type": {"bool": true}},"outlineBottom":{"type": {"bool": true}},"outlineRadiusTopLeft":{"type": {"numeric": true}},"outlineRadiusTopRight":{"type": {"numeric": true}},"outlineRadiusBottomLeft":{"type": {"numeric": true}},"outlineRadiusBottomRight":{"type": {"numeric": true}},"focusOutlineColor":{"type": {"fill": {"solid": {"color": true}}}},"fontFamily":{"type": {"numeric": true}},"fontSize":{"type": {"numeric": true}},"fontColor":{"type": {"fill": {"solid": {"color": true}}}},"fontBold":{"type": {"bool": true}},"fontItalic":{"type": {"bool": true}},"fontUnderline":{"type": {"bool": true}},"chevronColor":{"type": {"fill": {"solid": {"color": true}}}}}},
+          "list":{"properties":{"fillColor":{"type": {"fill": {"solid": {"color": true}}}},"outlineColor":{"type": {"fill": {"solid": {"color": true}}}},"outlineThickness":{"type": {"numeric": true}},"outlineLeft":{"type": {"bool": true}},"outlineRight":{"type": {"bool": true}},"outlineTop":{"type": {"bool": true}},"outlineBottom":{"type": {"bool": true}},"outlineRadiusTopLeft":{"type": {"numeric": true}},"outlineRadiusTopRight":{"type": {"numeric": true}},"outlineRadiusBottomLeft":{"type": {"numeric": true}},"outlineRadiusBottomRight":{"type": {"numeric": true}},"fontFamily":{"type": {"numeric": true}},"fontSize":{"type": {"numeric": true}},"fontColor":{"type": {"fill": {"solid": {"color": true}}}},"searchedFontColor":{"type": {"fill": {"solid": {"color": true}}}},"fontBold":{"type": {"bool": true}},"fontItalic":{"type": {"bool": true}},"fontUnderline":{"type": {"bool": true}}}},
+          "searchBar":{"properties":{"onOff":{"type": {"bool": true}},"fillColor":{"type": {"fill": {"solid": {"color": true}}}},"outlineColor":{"type": {"fill": {"solid": {"color": true}}}},"outlineThickness":{"type": {"numeric": true}},"outlineLeft":{"type": {"bool": true}},"outlineRight":{"type": {"bool": true}},"outlineTop":{"type": {"bool": true}},"outlineBottom":{"type": {"bool": true}},"outlineRadiusTopLeft":{"type": {"numeric": true}},"outlineRadiusTopRight":{"type": {"numeric": true}},"outlineRadiusBottomLeft":{"type": {"numeric": true}},"outlineRadiusBottomRight":{"type": {"numeric": true}},"focusOutlineColor":{"type": {"fill": {"solid": {"color": true}}}},"fontFamily":{"type": {"numeric": true}},"fontSize":{"type": {"numeric": true}},"fontColor":{"type": {"fill": {"solid": {"color": true}}}},"searchedFontColor":{"type": {"fill": {"solid": {"color": true}}}},"fontBold":{"type": {"bool": true}},"fontItalic":{"type": {"bool": true}},"fontUnderline":{"type": {"bool": true}},"searchIconColor":{"type": {"fill": {"solid": {"color": true}}}}}},
+          "selectedCount":{"properties":{"onOff":{"type": {"bool": true}},"fontFamily":{"type": {"numeric": true}},"fontSize":{"type": {"numeric": true}},"fontColor":{"type": {"fill": {"solid": {"color": true}}}},"fontBold":{"type": {"bool": true}},"fontItalic":{"type": {"bool": true}},"fontUnderline":{"type": {"bool": true}}}},
+          "select":{"properties":{"onOff":{"type": {"bool": true}},"selectedFillColor":{"type": {"fill": {"solid": {"color": true}}}},"selectedOutlineColor":{"type": {"fill": {"solid": {"color": true}}}},"unselectedFillColor":{"type": {"fill": {"solid": {"color": true}}}},"unselectedOutlineColor":{"type": {"fill": {"solid": {"color": true}}}},"outlineThickness":{"type": {"numeric": true}},"outlineRadius":{"type": {"numeric": true}},"checkColor":{"type": {"fill": {"solid": {"color": true}}}}}},
+          "toggle":{"properties":{"onOff":{"type": {"bool": true}},"trackRadius":{"type": {"numeric": true}},"trackUnselectedFillColor":{"type": {"fill": {"solid": {"color": true}}}},"trackUnselectedOutlineColor":{"type": {"fill": {"solid": {"color": true}}}},"trackSelectedFillColor":{"type": {"fill": {"solid": {"color": true}}}},"trackSelectedOutlineColor":{"type": {"fill": {"solid": {"color": true}}}},"trackOutlineThickness":{"type": {"numeric": true}},"knobActiveFillColor":{"type": {"fill": {"solid": {"color": true}}}},"knobActiveOutlineColor":{"type": {"fill": {"solid": {"color": true}}}},"knobInactiveFillColor":{"type": {"fill": {"solid": {"color": true}}}},"knobInactiveOutlineColor":{"type": {"fill": {"solid": {"color": true}}}},"fontFamily":{"type": {"numeric": true}},"fontSize":{"type": {"numeric": true}},"fontColor":{"type": {"fill": {"solid": {"color": true}}}},"fontBold":{"type": {"bool": true}},"fontItalic":{"type": {"bool": true}},"fontUnderline":{"type": {"bool": true}}}}
+    },
+    "dataViewMappings": [
+        {
+            "conditions": [{"category":{"max": 1}}],
+            "categorical": {
+                "categories": {
+                    "for": {
+                        "in": "category"
+                    },
+                    "dataReductionAlgorithm": {
+                        "top": {}
+                    }
+                },
+                "values": {
+                    "select": [
+                        {
+                            "bind": {
+                                "to": "measure"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

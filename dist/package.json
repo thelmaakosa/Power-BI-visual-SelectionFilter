@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "author": {"name":"Andie McPartland","email":"andie.mcpartland@triskele.health"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/TriskeleSelectionFilterA1E9660581274C8B9771C1ADED6A1650.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"Triskele SelectionFilter","displayName":"Triskele SelectionFilter","guid":"TriskeleSelectionFilterA1E9660581274C8B9771C1ADED6A1650","visualClassName":"Visual","version":"1.0.0","description":"Triskele SelectionFilter","supportUrl":"https://community.powerbi.com","gitHubUrl":"https://github.com/TriskeleTechnology"},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}

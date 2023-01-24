@@ -1,0 +1,4 @@
+import powerbiVisualsApi from "powerbi-visuals-api";
+import IVisualPlugin = powerbiVisualsApi.visuals.plugins.IVisualPlugin;
+declare var TriskeleSelectionFilterA1E9660581274C8B9771C1ADED6A1650: IVisualPlugin;
+export default TriskeleSelectionFilterA1E9660581274C8B9771C1ADED6A1650;
