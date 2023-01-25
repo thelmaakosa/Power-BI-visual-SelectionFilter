@@ -10,7 +10,6 @@ Custom PowerBI Visual to filter quantitative data using single or multiple secti
 
 ## Contributer(s)
 - **Developer:** [Thelma Akosa](mailto:thelmaakosa107@gmail.com)
-- **Tester:** [Ryan Fleming](mailto:thelmaakosa107@gmail.com)
 
 ## Documentation and Resources
 - PowerBI Documentation: https://docs.microsoft.com/en-us/power-bi/developer/visuals/
