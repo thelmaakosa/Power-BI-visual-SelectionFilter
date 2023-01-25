@@ -15,7 +15,7 @@ export const genFontStyle = (
   return `
         font: ${fontItalic ? "italic" : "normal"} normal ${
     fontBold ? "bold" : "normal"
-  } ${fontSize}px ${fontFamily.replace('"', "")};
+  } ${fontSize}pt ${fontFamily.replace('"', "")};
         text-decoration: ${fontUnderline ? "underline" : "none"};
         text-align: ${
           position == "Left" ? "left" : position == "Right" ? "right" : "center"
@@ -142,7 +142,7 @@ export const genFontStyleObj = (
   const obj = {
     font: `${fontItalic ? "italic" : "normal"} normal ${
       fontBold ? "bold" : "normal"
-    } ${fontSize}px ${fontFamily.replace('"', "")}`,
+    } ${fontSize}pt ${fontFamily.replace('"', "")}`,
     textDecoration: `${fontUnderline ? "underline" : "none"}`,
     textAlign: `${
       position == "Left" ? "left" : position == "Right" ? "right" : "center"

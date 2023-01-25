@@ -1,14 +1,12 @@
-# Slider Filter 
+# Selection Filter 
 
 ## Screenshot
 <p align="left">
-  <img src="assets/Example.png" width="450" title="Slider Filter Screenshot">
+  <img src="assets/Example.png" width="450" title="Selection Filter Screenshot">
 </p>
 
 ## Introduction 
-Custom PowerBI Visual to filter quantitative data using a continuous slider. 
-
-https://github.com/thelmaakosa/Power-BI-visual-SliderFilter/blob/main/SliderFilter.pdf
+Custom PowerBI Visual to filter quantitative data using single or multiple sections. 
 
 ## Contributer(s)
 - **Developer:** [Thelma Akosa](mailto:thelmaakosa107@gmail.com)
